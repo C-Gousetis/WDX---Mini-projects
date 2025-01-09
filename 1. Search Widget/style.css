@@ -43,18 +43,7 @@ ul {
 #search-widget {
     padding-top: 100px;
     border-bottom: 5px solid black;
-    height: 30vh;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(.//tools/widget-background.jpg);
-    
-    background-color:#202b38;
+    height: 100vh;
+    color: white;
+    background-color:#626262;
 }
-
-#search-data-explorer {
-    border-top: 5px solid black;
-    height: 70vh;
-}
-
-html { color-scheme: dark }

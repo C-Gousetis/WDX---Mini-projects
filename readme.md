@@ -23,13 +23,15 @@
     list four (4) movies. In the title of each movie, there is information about the
     genre of the film. All of these are hardcoded.
 
-    Taking all available genres (hardcoded), a datalist is generated automatically. When there is no user input and the user clicks on the input field, they can scroll
+    Taking all available genres (hardcoded), a datalist is generated automatically. 
+    When there is no user input and the user clicks on the input field, they can scroll
     through the available options and once a choice is clicked, it fills the input 
     field.
 
     Once the input field is filled, either by a click as mentioned above or by the user
     typing, the widget searches through every available movie to find matches in each
-    cinema. If there are matches, the movie is highlighted and the number of matches by cinema is presented in a yellow-orange bubble next to the cinema name.
+    cinema. If there are matches, the movie is highlighted and the number of matches by
+    cinema is presented in a yellow-orange bubble next to the cinema name.
 
     If there is no initial input or the user deletes the previous input until there is
     nothing. Everything resets, meaning there are no counted movies nor any highlights.

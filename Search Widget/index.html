@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Widget</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Add on to remove a Favicon error in the console -->
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+    <!-- Desired Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="search-widget">
+        <img src="./tools/infinity.png" alt="infinity symbol" id="infinity">
+        <section class="searchbar">
+            <label for="search">Search :</label>
+            <div class="wrapper">
+                <input type="search" id="search" oninput="searchInput()" />
+                <ul id="results">
+                </ul>
+            </div>
+        </section>
+    </div>
+  
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

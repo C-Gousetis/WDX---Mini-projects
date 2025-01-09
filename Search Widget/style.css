@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Playwrite AU SA", serif;
+}
+
+#infinity {
+    height: 75px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+.searchbar {
+    width: fit-content;
+    margin: 0px auto;
+    display: flex;
+    padding: 15px;
+
+}
+
+.wrapper {
+    position: relative;
+    margin-left: 5px;
+}
+
+ul {
+    margin: 0;
+    margin-top: 20px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+
+.highlight {
+    color: rgb(235, 107, 9);
+    font-weight: bold;
+}
+
+#search-widget {
+    padding-top: 100px;
+    border-bottom: 5px solid black;
+    height: 30vh;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(.//tools/widget-background.jpg);
+    
+    background-color:#202b38;
+}
+
+#search-data-explorer {
+    border-top: 5px solid black;
+    height: 70vh;
+}
+
+html { color-scheme: dark }

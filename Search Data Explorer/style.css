@@ -1,0 +1,22 @@
+hmtl {
+    color-scheme: dark;
+
+}
+.desiredFont{
+    font-family: "Playwrite AU SA", serif;
+}
+
+.bubble{
+    background: orange;
+    color: black;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    visibility: hidden;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Data Explorer</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Quick jsdelivr import -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    <!-- Add on to remove a Favicon error in the console -->
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+    <!-- Desired Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="inputChoice" class="desiredFont">
+        <label for="genre-choice">Choose a flavor:</label>
+        <input list="all-genres" id="genre-choice" name="genre-choice" />
+    </div>
+
+    <datalist id="all-genres" class="available-genres"></datalist>
+
+    <hr />
+
+    <details id="Village-Metro-Mall" class="desiredFont" open>
+
+        <summary class="desiredFont">Village Cinemas Metro Mall <span class="bubble"></span></summary>
+
+        <ul>
+            <li>Gladiator - Action / Drama </li>
+            <li>Meet the Parents - Comedy / Family </li>
+            <li>Wicked - Fantasy / Musical </li>
+            <li>Moana 2 - Comedy / Animation </li>
+        </ul>
+
+    </details>
+    <details id="Options-Glyfada" class="desiredFont" open>
+
+        <summary class="desiredFont">Options Cinemas Glyfada <span class="bubble"></span></summary>
+
+        <ul>
+            <li>Maria - Social / Drama</li>
+            <li>Mufasa - Family / Animation</li>
+            <li>Sonic 3 - Family / Anitmation</li>
+            <li>Better Man - Drama / Musical</li>
+        </ul>
+
+    </details>
+    <details id="Oden-Cinemas" class="desiredFont" open>
+
+        <summary>Odeon Cinemas <span class="bubble"></span></summary>
+
+        <ul>
+            <li>Meet the Parents - Comedy / Family </li>
+            <li>Moana 2 - Comedy / Animation </li>
+            <li>Nosferatu - Thriller / Horror </li>
+            <li>Heretic - Thriller / Horror </li>
+        </ul>
+
+    </details>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
